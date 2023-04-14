@@ -1,0 +1,18 @@
+Muhammad Abidin
+V3922032
+
+Deskripsi System
+
+Sistem ini adalah sebuah aplikasi yang berguna untuk mencatat data barang dengan menggunakan database MySQL dan bahasa pemrograman Python. Terdapat beberapa fitur utama dalam sistem ini, yaitu:
+
+Input Data Barang: Fitur ini digunakan untuk menambahkan data barang ke dalam database. Data yang diinputkan meliputi Id Barang, Nama Barang, Harga Barang, Stok Awal, Barang Masuk, dan Barang Keluar. Dari data-data tersebut, sistem akan menghitung Stok Akhir menggunakan rumus Stok Akhir = Stok Awal + Barang Masuk - Barang Keluar.
+
+Tampilkan Data Barang: Fitur ini digunakan untuk menampilkan seluruh data barang yang telah disimpan di dalam database.
+
+Update Data Barang: Fitur ini digunakan untuk mengubah data barang yang telah disimpan di dalam database. Data yang dapat diubah adalah Nama Barang, Harga Barang, Stok Awal, Barang Masuk, Barang Keluar, dan Stok Akhir.
+
+Hapus Data Barang: Fitur ini digunakan untuk menghapus data barang yang telah disimpan di dalam database berdasarkan Id Barang.
+
+Cari Data Barang: Fitur ini digunakan untuk mencari data barang berdasarkan Id Barang.
+
+Semua fitur dalam sistem ini menggunakan fungsi-fungsi yang telah dibuat dengan menggunakan modul mysql.connector untuk menghubungkan database MySQL dan bahasa pemrograman Python. Untuk menjalankan sistem ini, pengguna dapat memilih pilihan menu yang disediakan pada saat aplikasi dijalankan.
